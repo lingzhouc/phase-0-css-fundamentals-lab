@@ -3,3 +3,44 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* align header */
+h1, nav {
+  text-align: center;
+ }
+
+/* pad and color nav */
+ nav > a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #e2d7bf;
+ }
+
+ /* center img */
+ img {
+  display: block;
+  margin: auto;
+ }
+
+/* caption */
+figcaption {
+  text-align: center;
+  font-size: smaller;
+}
+
+/* featured property */
+#featured-property > p {
+  width: 800px;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+/* details */
+#details > div {
+  float: inline-start;
+  text-align: center;
+  margin: auto;
+  width: 25%;
+  background: #b83d39;
+}
